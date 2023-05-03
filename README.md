@@ -3,9 +3,9 @@
 [GitHub](https://github.com/pbek/playwright-example)
 
 ```bash
-# Install dependencies
-npm install
+# Use nix-shell to run shell.nix (or use direnv) to install playwright-test
+nix-shell
 
 # Run tests
-npx playwright test
+playwright test
 ```
