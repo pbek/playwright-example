@@ -6,6 +6,6 @@
 # Use nix-shell to run shell.nix (or use direnv) to install playwright-test
 nix-shell
 
-# Run tests
-playwright test
+# Run chromium tests
+playwright test --project chromium
 ```
